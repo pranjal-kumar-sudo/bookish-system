@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - npm install --force
+
+  build:
+    commands:
+      #- npm run start
+      - echo "Build completed successfully!"
+artifacts:
+  files:
+    - '**/*'

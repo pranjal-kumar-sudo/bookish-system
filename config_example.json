@@ -1,0 +1,14 @@
+{
+  "mongoURI": "mongodb://localhost/TestProj",
+  "secretOrKey": "test#12%proj",
+  "port": 5000,
+  "smtp": {
+  	"mail": "Gmail", 
+  	"user": "kaustubh91@gmail.com",
+  	"password": "your password"
+  },
+  "googleClientId": "googleClientId",
+  "googleClientSecret": "googleClientSecret",
+  "linkedinClientId": "linkedinClientId",
+  "linkedinClientSecret": "linkedinClientSecret"
+}
